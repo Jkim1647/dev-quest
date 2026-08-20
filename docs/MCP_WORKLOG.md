@@ -1,0 +1,38 @@
+# Zaemit MCP worklog
+
+## Discovery
+
+- Zaemit 사이트, 페이지, 컴포넌트, SEO, 도메인, 통계 관련 도구 조사
+- `site_map`, `domain_list`, `siteinfo_get`, `seo_get`, `searchconnect_status` 조회
+- 방문 분석과 마케팅 픽셀 연결 상태 조회
+
+## Site construction
+
+- 기존 사이트 구조 조회 후 DEV QUEST 페이지 제작
+- Home, Algorithm Dungeon, AI Laboratory, Project City 구성
+- Header와 Footer 컴포넌트 생성 및 페이지 반영
+- Hero, Current Status, Current Quest, World Map, Journey, Achievements 구현
+
+## Data and interaction
+
+- Guestbook 원본 데이터 시트 생성 및 필드 연결
+- 개인정보 수집 동의 필드 구성
+- 메시지 공개 동의 선택 필드 추가
+- 공개 승인 메시지용 별도 데이터 시트 생성
+- 공개 목록 읽기 전용 API와 Recent Traces UI 연결
+
+## SEO and operations
+
+- `siteinfo_set`, `seo_set`으로 사이트 정보와 canonical 설정
+- 공식 AEO 구조화 데이터 설정
+- AI crawler 허용과 `llms.txt` 활성화
+- 기존 메타 정규화 JavaScript 제거
+- Header, Footer, CTA의 터치 영역 보완
+
+## Verification
+
+- 공개 URL 5개 비로그인 응답 확인
+- 공개 HTML `<head>` 확인
+- 내부 링크, 키보드 포커스, 가로 넘침, 반응형 규칙 확인
+- Home 최종 page revision 재발행 (`page_seq 21`)
+
