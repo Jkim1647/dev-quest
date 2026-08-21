@@ -8,7 +8,7 @@
 
 - Production: https://wv1787202495138203.zaemit.ai/
 - Platform: [Zaemit](https://zaemit.ai/)
-- Current milestone: `v0.1.0 — Contest submission candidate`
+- Current milestone: `v0.2.0 — Award-quality polish candidate`
 
 ## Contest
 
@@ -56,6 +56,16 @@
 - SEO, canonical, AEO, AI crawler, `llms.txt` 설정
 - 공개 페이지 재발행 및 비로그인 검증
 
+### v0.2.0 polish
+
+- Hero에 성장 루프와 Quest Console 모티프 적용
+- World Map 연결 경로와 World별 색상 체계 강화
+- Algorithm / AI / Project의 4단계 운영 흐름 정교화
+- TODO 문구를 의도적인 대기·잠금 상태로 교체
+- Journey, Achievements, Guestbook empty state 개선
+- 미등록 Footer 채널을 비활성 `Coming soon` 상태로 정리
+- 1024px / 768px / 390px 반응형 규칙과 360px 상속 검증
+
 자세한 내역은 [`docs/MCP_WORKLOG.md`](docs/MCP_WORKLOG.md)를 참고하세요.
 
 ## Repository scope
@@ -70,6 +80,7 @@
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — 2차 개선 계획
 - [`docs/SUBMISSION.md`](docs/SUBMISSION.md) — 공모전 제출용 설명
 - [`docs/CONTEST.md`](docs/CONTEST.md) — 공모전 개요와 제출 체크리스트
+- [`docs/RELEASE_NOTES.md`](docs/RELEASE_NOTES.md) — 버전별 변경 기록
 
 ## License
 

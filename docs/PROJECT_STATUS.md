@@ -1,6 +1,7 @@
-# Project status — v0.1.0
+# Project status — v0.2.0
 
-기준일: 2026-08-20  
+기준일: 2026-08-21
+
 공개 URL: https://wv1787202495138203.zaemit.ai/
 
 ## 완료된 범위
@@ -20,6 +21,23 @@
 - Header, Footer, 모바일 내비게이션
 - 반응형 CSS, 키보드 포커스, reduced motion
 - canonical, AEO, AI crawler, `llms.txt` 설정
+- Hero 성장 루프와 Quest Console 모티프
+- World Map 연결 경로와 World별 색상 체계
+- Algorithm, AI, Project의 4단계 운영 흐름
+- TODO를 대기·잠금 상태로 교체
+- Journey, Achievements, Guestbook empty state 개선
+- Footer 미등록 채널의 비활성 `Coming soon` 처리
+
+## 현재 발행 revision
+
+| 대상 | Revision |
+| --- | ---: |
+| Main | 34 |
+| Algorithm Dungeon | 32 |
+| AI Laboratory | 31 |
+| Project City | 33 |
+
+공통 Header와 Footer는 수정 후 복구 이력을 생성했으며, Guestbook 원본·공개 시트와 API 구조는 변경하지 않았습니다.
 
 ## 데이터 정책
 
