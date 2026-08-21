@@ -39,6 +39,10 @@
 - Guestbook 필수 개인정보 동의와 선택 공개 동의
 - 공개 API 노출 필드: `nickname`, `message`, `published_at`
 - 테스트 메시지 미저장
+- 세 World의 `DEMO RECORD · HOW TO USE` 카드 공개 노출
+- DEMO 제목, `SAMPLE DATA` 배지, 실제 성과가 아니라는 안내 문구
+- 세 하위 페이지의 기존 4단계 흐름과 World Map 복귀 링크 보존
+- Algorithm / AI / Project 전용 시트에 DEMO 데이터 각 1건
 
 ## Known limitations
 

@@ -28,14 +28,14 @@
 - Journey, Achievements, Guestbook empty state 개선
 - Footer 미등록 채널의 비활성 `Coming soon` 처리
 
-## 현재 발행 revision
+## 현재 활성 page sequence
 
-| 대상 | Revision |
+| 대상 | Page sequence |
 | --- | ---: |
 | Main | 34 |
-| Algorithm Dungeon | 32 |
-| AI Laboratory | 31 |
-| Project City | 33 |
+| Algorithm Dungeon | 35 |
+| AI Laboratory | 36 |
+| Project City | 37 |
 
 공통 Header와 Footer는 수정 후 복구 이력을 생성했으며, Guestbook 원본·공개 시트와 API 구조는 변경하지 않았습니다.
 
@@ -43,6 +43,8 @@
 
 - 경력·프로젝트·학습 수치·수상 기록을 임의 생성하지 않았습니다.
 - 현재 실제 방명록 데이터는 0건입니다.
+- Algorithm, AI, Project 시트에는 사용법 안내용 DEMO 기록이 각각 1건 있습니다.
+- DEMO 기록은 제목과 작성자에 명시적으로 표시하며 실제 성과로 계산하지 않습니다.
 - 개인정보 동의는 필수이며 메시지 공개 동의는 선택입니다.
 - 공개 API에는 `nickname`, `message`, `published_at`만 노출합니다.
 

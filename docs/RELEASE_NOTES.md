@@ -8,14 +8,16 @@
 
 ### Changed
 
-- 메인 페이지를 revision 34로 고도화
-- Algorithm Dungeon 32, AI Laboratory 31, Project City 33 발행
+- 메인 페이지를 활성 page sequence 34로 고도화
+- Algorithm Dungeon 32, AI Laboratory 31, Project City 33을 활성 page sequence로 발행
 - Hero 성장 루프와 Quest Console 고유 모티프 추가
 - TODO를 의도적인 대기·잠금 상태로 교체
 - World Map 연결 경로와 World별 색상 체계 적용
 - 세 World의 4단계 운영 흐름 강화
 - Journey, Achievements, Guestbook empty state 개선
 - Footer 미등록 채널을 비활성 `Coming soon`으로 정리
+- 세 World에 사용법을 설명하는 DEMO 기록 카드 추가
+- Algorithm, AI, Project 전용 시트에 DEMO 데이터 각 1건 저장
 
 ### Preserved
 
@@ -24,6 +26,7 @@
 - 읽기 전용 목록 API
 - 공개 API 필드 `nickname`, `message`, `published_at`
 - 실제 데이터가 없을 때 가짜 테스트 메시지를 넣지 않는 정책
+- Guestbook에 가짜 방문자 메시지를 넣지 않는 정책
 
 ### QA
 

@@ -66,6 +66,15 @@
 - 미등록 Footer 채널을 비활성 `Coming soon` 상태로 정리
 - 1024px / 768px / 390px 반응형 규칙과 360px 상속 검증
 
+### Demo records
+
+처음 방문한 사람도 기록 방식을 이해할 수 있도록 세 World에 각각 1개의 샘플 기록을 제공합니다. 모든 샘플은 제목과 작성자에 `DEMO`를 표시하며 실제 경력이나 성과로 취급하지 않습니다.
+
+- Algorithm: Two Sum 해시 맵 풀이 흐름
+- AI: RAG 검색 품질 비교 실험 흐름
+- Project: DEV QUEST 접근성 개선 흐름
+- Guestbook: 가짜 방문자 메시지 없음
+
 자세한 내역은 [`docs/MCP_WORKLOG.md`](docs/MCP_WORKLOG.md)를 참고하세요.
 
 ## Repository scope
