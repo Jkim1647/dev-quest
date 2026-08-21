@@ -78,3 +78,33 @@
 - Algorithm Dungeon: page sequence 35
 - AI Laboratory: page sequence 36
 - Project City: page sequence 37
+
+## QUEST REPLAY and MY QUEST — 2026-08-21
+
+### Signature experience
+
+- 메인에 `QUEST REPLAY — 사고 과정 플레이어` 추가
+- Algorithm, AI, Project 전환과 World별 4단계 탐색
+- 선택지별 장점·단점·채택 방향·근거 비교
+- 완료 시 Growth Trace 표시
+- 사이트 목적부터 운영 계획까지 안내하는 90초 Judge Mode 적용
+- How It Works와 별도 DEMO Records를 통합해 메인 길이 약 33% 축소
+
+### Member workspace
+
+- `MY QUEST Records` 전용 시트 생성 (`sd_my_quest_records`)
+- 서버가 `owner_member_seq`를 자동 관리하도록 구성
+- list, get, create, update, delete API 생성
+- API 5종 모두 `member_scope: 1` 확인
+- `/page/my-quest/` 발행 및 공식 로그인 경계 연결
+- 생성 요청의 `is_public=false`, same-origin 세션 호출 적용
+- API 키와 `localStorage` 미사용
+- 개인 데이터 0건 유지
+
+### Cleanup and verification
+
+- 공개 SyntaxError를 발생시킨 중복 레거시 인라인 스크립트만 제거
+- QUEST REPLAY, Guestbook, MY QUEST CTA 스크립트 보존
+- 활성 메인 page sequence 68, MY QUEST 65 확인
+- 비로그인 MY QUEST 접근 시 공식 로그인 안내 확인
+- 회원 계정이 필요한 CRUD와 회원 간 격리 실행 검증은 미수행

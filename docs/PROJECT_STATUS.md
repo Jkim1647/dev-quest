@@ -32,10 +32,11 @@
 
 | 대상 | Page sequence |
 | --- | ---: |
-| Main | 34 |
+| Main | 68 |
 | Algorithm Dungeon | 35 |
 | AI Laboratory | 36 |
 | Project City | 37 |
+| MY QUEST | 65 |
 
 공통 Header와 Footer는 수정 후 복구 이력을 생성했으며, Guestbook 원본·공개 시트와 API 구조는 변경하지 않았습니다.
 
@@ -47,6 +48,18 @@
 - DEMO 기록은 제목과 작성자에 명시적으로 표시하며 실제 성과로 계산하지 않습니다.
 - 개인정보 동의는 필수이며 메시지 공개 동의는 선택입니다.
 - 공개 API에는 `nickname`, `message`, `published_at`만 노출합니다.
+- MY QUEST 데이터는 별도 `sd_my_quest_records` 시트에 저장합니다.
+- MY QUEST API 5종은 모두 `member_scope: 1`이며 현재 개인 데이터는 0건입니다.
+- 개인 Quest는 생성 요청에서 `is_public=false`를 명시합니다.
+
+## 회원 기능
+
+- 비로그인: DEMO QUEST, World Map, Guestbook 이용
+- 로그인: 개인 Quest 생성, 목록 조회, 수정, 완료, 삭제
+- 공식 로그인·회원가입·마이페이지 경로 연결
+- same-origin 회원 세션 사용
+- 프런트엔드 API 키와 `localStorage` 미사용
+- 운영자 공개 기록과 회원 개인 기록의 시트 분리
 
 ## 알려진 플랫폼 제약
 

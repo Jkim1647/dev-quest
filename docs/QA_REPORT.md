@@ -43,6 +43,22 @@
 - DEMO 제목, `SAMPLE DATA` 배지, 실제 성과가 아니라는 안내 문구
 - 세 하위 페이지의 기존 4단계 흐름과 World Map 복귀 링크 보존
 - Algorithm / AI / Project 전용 시트에 DEMO 데이터 각 1건
+- QUEST REPLAY 세 World 전환과 4단계 이동
+- Growth Trace 결과 카드와 90초 Judge Mode
+- 공개 페이지 JavaScript 오류 없음
+- MY QUEST 비로그인 접근 시 로그인 안내
+- MY QUEST API 5종의 `member_scope: 1`
+- MY QUEST 개인 데이터 0건
+
+## Requires authenticated QA
+
+- Quest 생성 후 목록 반영
+- 임시 저장과 수정
+- 완료 처리와 삭제
+- 로그아웃 후 개인 데이터 미노출
+- 서로 다른 회원 사이의 데이터 격리
+
+실제 로그인 계정으로 수행하지 않은 항목은 완료로 판정하지 않습니다.
 
 ## Known limitations
 

@@ -37,6 +37,8 @@
 - **Journey** — 시간에 따른 성장 체크포인트
 - **Achievements** — 근거가 있는 성취만 해금되는 기록
 - **Guestbook** — 방문자 메시지와 공개 동의 기반 Recent Traces
+- **QUEST REPLAY** — 문제·선택·근거·회고를 직접 탐색하는 사고 과정 플레이어
+- **MY QUEST** — 로그인 회원이 자신의 Quest를 생성·수정·완료하는 비공개 성장 기록 공간
 
 ## Key principles
 
@@ -55,6 +57,7 @@
 - 공개 동의 메시지용 별도 공개 시트와 읽기 전용 API
 - SEO, canonical, AEO, AI crawler, `llms.txt` 설정
 - 공개 페이지 재발행 및 비로그인 검증
+- 회원별 데이터 격리를 적용한 MY QUEST 전용 시트와 CRUD API
 
 ### v0.2.0 polish
 
@@ -90,6 +93,7 @@
 - [`docs/SUBMISSION.md`](docs/SUBMISSION.md) — 공모전 제출용 설명
 - [`docs/CONTEST.md`](docs/CONTEST.md) — 공모전 개요와 제출 체크리스트
 - [`docs/RELEASE_NOTES.md`](docs/RELEASE_NOTES.md) — 버전별 변경 기록
+- [`docs/MY_QUEST.md`](docs/MY_QUEST.md) — 회원 기능과 데이터 보호 구조
 
 ## License
 

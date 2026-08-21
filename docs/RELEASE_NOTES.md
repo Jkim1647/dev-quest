@@ -18,6 +18,11 @@
 - Footer 미등록 채널을 비활성 `Coming soon`으로 정리
 - 세 World에 사용법을 설명하는 DEMO 기록 카드 추가
 - Algorithm, AI, Project 전용 시트에 DEMO 데이터 각 1건 저장
+- QUEST REPLAY 사고 과정 플레이어와 Growth Trace 추가
+- 90초 Judge Mode 추가
+- MY QUEST 회원 전용 기록 페이지와 Stepper 작성 흐름 추가
+- 메인 활성 page sequence 68, MY QUEST 65 발행
+- 오류를 발생시킨 중복 레거시 인라인 스크립트 제거
 
 ### Preserved
 
@@ -27,6 +32,8 @@
 - 공개 API 필드 `nickname`, `message`, `published_at`
 - 실제 데이터가 없을 때 가짜 테스트 메시지를 넣지 않는 정책
 - Guestbook에 가짜 방문자 메시지를 넣지 않는 정책
+- 공개 포트폴리오 데이터와 회원 개인 데이터의 분리
+- 기존 World 페이지, Guestbook, SEO 설정과 복구 revision
 
 ### QA
 
