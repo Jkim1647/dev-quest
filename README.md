@@ -8,7 +8,7 @@
 
 - Production: https://wv1787202495138203.zaemit.ai/
 - Platform: [Zaemit](https://zaemit.ai/)
-- Current milestone: `v0.1.0 — Contest submission candidate`
+- Current milestone: `v0.2.0 — Award-quality polish candidate`
 
 ## Contest
 
@@ -37,6 +37,8 @@
 - **Journey** — 시간에 따른 성장 체크포인트
 - **Achievements** — 근거가 있는 성취만 해금되는 기록
 - **Guestbook** — 방문자 메시지와 공개 동의 기반 Recent Traces
+- **QUEST REPLAY** — 문제·선택·근거·회고를 직접 탐색하는 사고 과정 플레이어
+- **MY QUEST** — 로그인 회원이 자신의 Quest를 생성·수정·완료하는 비공개 성장 기록 공간
 
 ## Key principles
 
@@ -55,6 +57,26 @@
 - 공개 동의 메시지용 별도 공개 시트와 읽기 전용 API
 - SEO, canonical, AEO, AI crawler, `llms.txt` 설정
 - 공개 페이지 재발행 및 비로그인 검증
+- 회원별 데이터 격리를 적용한 MY QUEST 전용 시트와 CRUD API
+
+### v0.2.0 polish
+
+- Hero에 성장 루프와 Quest Console 모티프 적용
+- World Map 연결 경로와 World별 색상 체계 강화
+- Algorithm / AI / Project의 4단계 운영 흐름 정교화
+- TODO 문구를 의도적인 대기·잠금 상태로 교체
+- Journey, Achievements, Guestbook empty state 개선
+- 미등록 Footer 채널을 비활성 `Coming soon` 상태로 정리
+- 1024px / 768px / 390px 반응형 규칙과 360px 상속 검증
+
+### Demo records
+
+처음 방문한 사람도 기록 방식을 이해할 수 있도록 세 World에 각각 1개의 샘플 기록을 제공합니다. 모든 샘플은 제목과 작성자에 `DEMO`를 표시하며 실제 경력이나 성과로 취급하지 않습니다.
+
+- Algorithm: Two Sum 해시 맵 풀이 흐름
+- AI: RAG 검색 품질 비교 실험 흐름
+- Project: DEV QUEST 접근성 개선 흐름
+- Guestbook: 가짜 방문자 메시지 없음
 
 자세한 내역은 [`docs/MCP_WORKLOG.md`](docs/MCP_WORKLOG.md)를 참고하세요.
 
@@ -70,6 +92,8 @@
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — 2차 개선 계획
 - [`docs/SUBMISSION.md`](docs/SUBMISSION.md) — 공모전 제출용 설명
 - [`docs/CONTEST.md`](docs/CONTEST.md) — 공모전 개요와 제출 체크리스트
+- [`docs/RELEASE_NOTES.md`](docs/RELEASE_NOTES.md) — 버전별 변경 기록
+- [`docs/MY_QUEST.md`](docs/MY_QUEST.md) — 회원 기능과 데이터 보호 구조
 
 ## License
 

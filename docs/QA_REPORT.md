@@ -1,4 +1,8 @@
-# QA report — first release
+# QA report — v0.2.0 polish
+
+기준일: 2026-08-21
+
+근거: Zaemit MCP 작업 결과 및 공개 비로그인 브라우저 QA 기록
 
 ## Public routes
 
@@ -27,6 +31,34 @@
 - 주요 CTA와 내비게이션의 44px 이상 터치 영역
 - 991px / 767px 반응형 규칙
 - `prefers-reduced-motion` 지원
+- 공개 DOM 가로 넘침 `0px`
+- 1024px / 768px / 390px 미디어 규칙과 360px 상속
+- 모바일 좌우 여백 `20px`
+- 주요 탐색, 버튼, 동의 레이블의 44px 이상 터치 영역
+- heading 구조와 `aria-live` 빈 상태
+- Guestbook 필수 개인정보 동의와 선택 공개 동의
+- 공개 API 노출 필드: `nickname`, `message`, `published_at`
+- 테스트 메시지 미저장
+- 세 World의 `DEMO RECORD · HOW TO USE` 카드 공개 노출
+- DEMO 제목, `SAMPLE DATA` 배지, 실제 성과가 아니라는 안내 문구
+- 세 하위 페이지의 기존 4단계 흐름과 World Map 복귀 링크 보존
+- Algorithm / AI / Project 전용 시트에 DEMO 데이터 각 1건
+- QUEST REPLAY 세 World 전환과 4단계 이동
+- Growth Trace 결과 카드와 90초 Judge Mode
+- 공개 페이지 JavaScript 오류 없음
+- MY QUEST 비로그인 접근 시 로그인 안내
+- MY QUEST API 5종의 `member_scope: 1`
+- MY QUEST 개인 데이터 0건
+
+## Requires authenticated QA
+
+- Quest 생성 후 목록 반영
+- 임시 저장과 수정
+- 완료 처리와 삭제
+- 로그아웃 후 개인 데이터 미노출
+- 서로 다른 회원 사이의 데이터 격리
+
+실제 로그인 계정으로 수행하지 않은 항목은 완료로 판정하지 않습니다.
 
 ## Known limitations
 
@@ -34,9 +66,8 @@
 - Description과 OG Description: 본문 자동 추출 — 임시 도메인 생성기 제약
 - OG image 태그 없음 — 현재 공식 MCP 도구 필드 미제공
 - `/favicon.ico` 사용 중이나 관리 UI의 공식 파비콘 체크 미완료
-- 실제 모바일 기기 시각 QA는 2차 개선에서 수행 예정
+- 실제 모바일 기기의 최종 스크롤 감각은 제출 전에 직접 확인 필요
 
 ## Release decision
 
-공개성, MCP 사용, 정보 구조, 반응형 기본 구현, 실제 운영 기능이 확인되어 공모전 제출이 가능한 1차 상태입니다. 플랫폼 SEO 제약은 커스텀 도메인 연결 전까지 알려진 제약으로 기록합니다.
-
+공개성, MCP 사용, 정보 구조, 반응형·접근성 규칙, 실제 운영 기능이 유지된 공모전 제출 후보 상태입니다. 플랫폼 SEO 제약은 관리자 지원 또는 커스텀 도메인 연결 환경에서 최종 확인해야 합니다. 공모전 접수는 아직 수행하지 않았습니다.

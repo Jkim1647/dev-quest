@@ -36,3 +36,75 @@
 - 내부 링크, 키보드 포커스, 가로 넘침, 반응형 규칙 확인
 - Home 최종 page revision 재발행 (`page_seq 21`)
 
+## v0.2.0 award-quality polish — 2026-08-21
+
+### Preservation and publishing
+
+- 기존 revision, 사이트맵, 공통 컴포넌트, 데이터 시트, API 보존 확인
+- 메인 페이지 활성 page sequence 34로 고도화 및 발행
+- Algorithm Dungeon 활성 page sequence 32 발행
+- AI Laboratory 활성 page sequence 31 발행
+- Project City 활성 page sequence 33 발행
+- 공통 Header와 Footer 수정 및 복구 이력 생성
+- 공식 SEO 설정 재적용
+
+### Design system refinement
+
+- Hero에 성장 루프와 Quest Console 고유 모티프 추가
+- 모든 TODO를 완성형 대기·잠금 상태로 교체
+- World Map에 연결 경로와 World별 색상 적용
+- Algorithm, AI, Project의 4단계 운영 흐름 강화
+- Journey, Achievements, Guestbook empty state 고도화
+- 미등록 Footer 채널을 비활성 `Coming soon` 상태로 정리
+
+### Verification
+
+- Zaemit 공개 페이지 조회 및 비로그인 브라우저 QA
+- CTA, 앵커, World Map 링크 확인
+- Guestbook 동의 구조와 공개 API 필드 보존 확인
+- 테스트 메시지를 저장하지 않고 빈 상태 확인
+
+## Demo onboarding — 2026-08-21
+
+- Algorithm, AI, Project 전용 시트가 각각 0건인 상태 확인
+- 세 시트에 실제 성과로 오해되지 않는 `DEV QUEST DEMO` 기록 1건씩 저장
+- Guestbook 원본·공개 시트에는 테스트 메시지를 저장하지 않음
+- 하위 페이지의 정적 대기 화면을 `DEMO RECORD · HOW TO USE` 카드로 개선
+- 기존 Hero, 4단계 흐름, Header, Footer, World Map 복귀 링크 보존
+- 공개 페이지 비로그인 재검증
+
+### Published pages
+
+- Algorithm Dungeon: page sequence 35
+- AI Laboratory: page sequence 36
+- Project City: page sequence 37
+
+## QUEST REPLAY and MY QUEST — 2026-08-21
+
+### Signature experience
+
+- 메인에 `QUEST REPLAY — 사고 과정 플레이어` 추가
+- Algorithm, AI, Project 전환과 World별 4단계 탐색
+- 선택지별 장점·단점·채택 방향·근거 비교
+- 완료 시 Growth Trace 표시
+- 사이트 목적부터 운영 계획까지 안내하는 90초 Judge Mode 적용
+- How It Works와 별도 DEMO Records를 통합해 메인 길이 약 33% 축소
+
+### Member workspace
+
+- `MY QUEST Records` 전용 시트 생성 (`sd_my_quest_records`)
+- 서버가 `owner_member_seq`를 자동 관리하도록 구성
+- list, get, create, update, delete API 생성
+- API 5종 모두 `member_scope: 1` 확인
+- `/page/my-quest/` 발행 및 공식 로그인 경계 연결
+- 생성 요청의 `is_public=false`, same-origin 세션 호출 적용
+- API 키와 `localStorage` 미사용
+- 개인 데이터 0건 유지
+
+### Cleanup and verification
+
+- 공개 SyntaxError를 발생시킨 중복 레거시 인라인 스크립트만 제거
+- QUEST REPLAY, Guestbook, MY QUEST CTA 스크립트 보존
+- 활성 메인 page sequence 68, MY QUEST 65 확인
+- 비로그인 MY QUEST 접근 시 공식 로그인 안내 확인
+- 회원 계정이 필요한 CRUD와 회원 간 격리 실행 검증은 미수행
