@@ -10,6 +10,18 @@
 - Platform: [Zaemit](https://zaemit.ai/)
 - Current milestone: `v0.1.0 — Contest submission candidate`
 
+## Contest
+
+- **공모전명:** 내 AI와 만드는 디자인 웹사이트 공모전
+- **주최:** 위븐
+- **접수 기간:** 2026-08-19 ~ 2026-09-18
+- **참여 대상:** 제한 없음
+- **분야:** 디자인 / 순수미술 / 공예
+- **추가 혜택:** iPad Air
+- **공고:** [링커리어 공고 보기](https://linkareer.com/activity/344044)
+
+세부 공고 정보와 제출 체크리스트는 [`docs/CONTEST.md`](docs/CONTEST.md)를 참고하세요.
+
 ## Why DEV QUEST?
 
 일반적인 이력서형 포트폴리오보다 개발자가 되어가는 과정 자체에 집중합니다. 문제 해결, 개념 학습, 프로젝트 구현, 회고와 성취가 하나의 성장 세계로 연결되며 실제 기록이 쌓일수록 사이트도 함께 확장됩니다.
@@ -57,8 +69,8 @@
 - [`docs/QA_REPORT.md`](docs/QA_REPORT.md) — 공개 사이트 QA
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — 2차 개선 계획
 - [`docs/SUBMISSION.md`](docs/SUBMISSION.md) — 공모전 제출용 설명
+- [`docs/CONTEST.md`](docs/CONTEST.md) — 공모전 개요와 제출 체크리스트
 
 ## License
 
 Copyright © 2026. All rights reserved. 콘텐츠와 디자인의 재사용 허가는 별도로 문의해 주세요.
-
