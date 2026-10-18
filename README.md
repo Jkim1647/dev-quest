@@ -8,12 +8,14 @@
 
 - Production: https://wv1787202495138203.zaemit.ai/
 - Platform: [Zaemit](https://zaemit.ai/)
-- Current milestone: `v0.1.0 — Contest submission candidate`
+- Current milestone: `v0.2.0 — 제출본 (2026-08-21 15:41 최종 제출, 재밋특별상)`
 
 ## Contest
 
-- **공모전명:** 내 AI와 만드는 디자인 웹사이트 공모전
-- **주최:** 위븐
+- **공모전명:** 재밋(Zaemit) MCP 웹사이트 챌린지 — 링커리어 공고명 「내 AI와 만드는 디자인 웹사이트 공모전」
+- **주최:** 위븐 (재밋 운영사)
+- **결과:** **재밋특별상** (2026-09-29 발표)
+- **제작:** 김진영 1인 (2026-08-20 ~ 08-21, 바이브 코딩: Codex가 지시·검수, ChatGPT + 재밋 MCP 커넥터가 실행)
 - **접수 기간:** 2026-08-19 ~ 2026-09-18
 - **참여 대상:** 제한 없음
 - **분야:** 디자인 / 순수미술 / 공예
@@ -21,6 +23,14 @@
 - **공고:** [링커리어 공고 보기](https://linkareer.com/activity/344044)
 
 세부 공고 정보와 제출 체크리스트는 [`docs/CONTEST.md`](docs/CONTEST.md)를 참고하세요.
+
+## v0.2.0 변경 (2026-08-21, 저장소에는 문서만 보관)
+
+- 디자인·반응형 고도화, 공개 URL 기준 SEO 점검(`noindex,nofollow` 발견·해제)
+- **Quest Replay** · 90초 심사 모드 추가
+- **MY QUEST** — 회원별 격리 기록
+- 회원 인증 메일 미발송 문제 해결
+- 상세 과정: [portfolio/projects/02-dev-quest.md](https://github.com/Jkim1647/portfolio/blob/main/projects/02-dev-quest.md)
 
 ## Why DEV QUEST?
 
